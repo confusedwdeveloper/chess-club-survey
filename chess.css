@@ -1,0 +1,27 @@
+/* css for body */
+.main-page {
+  background-color: #355667;
+  color: #ffffff;
+}
+/* user story 1 */
+#title {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+/* css for main part of the page. I will try to go with a flexbox setup. kinda scared and kinda excited. Hope this works out */
+.main-part {
+  width: 50%;
+  margin: auto;
+   display: flex;
+  flex-direction: column;
+  background-color: #223E4A;
+  padding: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* User story 2 */
+#description {
+  align-self: center;
+  font-size: 1.5em;
+}
+/* Now time to work on the fieldset and input elements for first identity section */
