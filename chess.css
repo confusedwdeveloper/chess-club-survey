@@ -36,3 +36,10 @@
 .select {
   margin-left: 1.5em;
 }
+[type="radio"] {
+  margin-bottom: 1em;
+}
+[type="checkbox"] {
+  margin-bottom: 1em;
+}
+/* I will work on fulfilling user conditions before tackling media */
