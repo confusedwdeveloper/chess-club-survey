@@ -43,3 +43,12 @@
   margin-bottom: 1em;
 }
 /* I will work on fulfilling user conditions before tackling media */
+/* user story 3 */
+#survey-form {
+font-weight: 500;
+}
+/* user storied 4-9 should be fulfilled */
+/* user storied 10 */
+#name-label, #email-label, #number-label {
+  font-family: sans-serif;
+}
