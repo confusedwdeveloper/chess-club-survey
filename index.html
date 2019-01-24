@@ -19,7 +19,7 @@
   <main class="main-part">
     <p id="description">A short survey for our members</p>
     <form action="https://google.com" id="survey-form">
-      <fieldset>
+      <fieldset class="person">
         <legend>Personal information:</legend>
         <label for="name" id="name-label">Your name </label>
         <input type="text" id="name" name="fullname" autofocus required placeholder="John Doe">
@@ -32,7 +32,7 @@
         <br>
         <label for="dropdown">Gender</label>
         <select class="select" name="gender" id="dropdown" required>
-          <option value="">--Please Choose an option-- </option>
+          <option value="">--options-- </option>
           <option value="male">male</option>
           <option value="female">female</option>
           <option value="other">other</option>
@@ -40,7 +40,7 @@
         <!-- user stories upto 12 should be fulfilled -->
       </fieldset>
       <!-- user story 13 -->
-      <fieldset>
+      <fieldset class="fide">
         <div>
           What is your FIDE title?</div>
         <br>
@@ -60,7 +60,7 @@
         <input type="radio" id="e1" name="chess" value="GM">
       </fieldset>
       <!-- User story 14: checkbox -->
-      <fieldset>
+      <fieldset class="checkbox">
         <div>
           What are the best things about our club(Please check all the boxes that apply)</div>
         <br>
@@ -80,7 +80,7 @@
         <input type="checkbox" id="e8" name="best" value="weekly tournaments">
       </fieldset>
       <!-- user story 15 -->
-      <fieldset>
+      <fieldset class="happiness">
         <div>On a scale of 1 to 5 how happy are you with us?</div>
         <br>
         <label for="not-happy">not happy </label>
@@ -92,10 +92,12 @@
         <label for="very-happy">very happy </label>
       </fieldset>
       <br>
-      <label for="feedback">Any feedback for us: </label>
-      <textarea id="feedback" name="feedback" class="text-area" maxlength="500" cols="35" rows="5" wrap="soft" placeholder="your feedback here"></textarea>
+      <div class="feedback">
+        <label for="feedback">Any feedback for us: </label>
+        <textarea id="feedback" name="feedback" class="text-area text" maxlength="500" cols="35" rows="5" wrap="soft" placeholder="your feedback here"></textarea>
+      </div>
       <br>
-      <button class="myButton" type="submit" name="submit" id="submit">Submit</button>
+      <button class="myButton submit" type="submit" name="submit" id="submit">Submit</button>
     </form>
 
 

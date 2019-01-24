@@ -125,3 +125,47 @@ img {
   font-weight: 500;
 }
 /* Now to work on media */
+@media (max-width: 500px) {
+  .main-page {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: minmax(auto,5em);
+    grid-template-rows: repeat(auto-fit, minmax(100%,100px));
+    justify-items : center;
+    /* align-items: center; */
+    grid-template-areas:
+    "person"
+    "fide"
+    "checkbox"
+    "happiness"
+    "feedback"
+    "text-area"
+    "submit"
+  }
+  .person {
+    grid-area: person;
+  }
+  .fide {
+    grid-area: fide;
+  }
+  .checkbox {
+    grid-area: checkbox;
+  }
+    .happiness {
+      grid-area: happiness;
+
+    }
+    .feedback {
+      grid-area: feedback;
+    }
+    .submit {
+      grid-area: submit;
+    }
+    .text {
+      height: 5em;
+      width: 5em;
+    }
+
+
+
+}
