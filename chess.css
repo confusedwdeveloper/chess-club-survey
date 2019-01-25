@@ -130,8 +130,8 @@ img {
     display: grid;
     grid-gap: 1em;
     grid-template-columns: minmax(auto,5em);
-    grid-template-rows: repeat(auto-fit, minmax(100%,100px));
-    justify-items : center;
+    /* grid-template-rows: repeat(auto-fit, minmax(100%,100px));
+    justify-items : center; */
     /* align-items: center; */
     grid-template-areas:
     "person"
@@ -168,4 +168,15 @@ img {
 
 
 
+}
+@media (max-width: 308px) {
+  [type="text"]  {
+    max-width: 50vw;
+  }
+  [type="email"] {
+    max-width: 50vw;
+  }
+  .happiness {
+    display: flex;
+  }
 }
